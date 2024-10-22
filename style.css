@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+}
+ul{
+list-style: none;
+font-size: 26px;
+margin-left: 30px;
+margin-top: 50px;
+-webkit-text-stroke: .5px  springgreen;
+
+}
+li{
+    margin-bottom: 20px;
+}
+.input{
+margin-top: 30px;
+padding: 10px 20px;
+border: 5px solid indianred;
+background-color: rgb(98, 67, 27);
+outline: none;
+margin-left: 20px;
+border-radius: 10px;
+color: rgb(255, 248, 248);
+font-size: 18px;
+}
+.addbtn,.update{
+    padding: 12px 25px;
+    border-radius: 10px;
+    background-color: rgb(201, 17, 17);
+    color: white;
+    border: none;
+    font-weight: 600;
+    outline: none;
+    margin-left: 20px;
+}
+.delet{
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 157, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+    margin-left: 20px;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+}
+.edit{
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 157, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+    margin-left: 20px;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+}
